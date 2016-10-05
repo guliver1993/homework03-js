@@ -1,3 +1,5 @@
+var n = Number(prompt("Введіть шукане число Фібоначчі"));
+
 function fib(n) {
       var a = 1,
         b = 1;
@@ -8,7 +10,7 @@ function fib(n) {
       }
       return b;
     }
+    alert('Число Фібоначчі = ' + fib(n));
     
-    document.write('число фібоначчі (3) =' + fib(3) + '<br>' ); 
-    document.write('число фібоначчі (5) =' +  fib(5) + '<br>' ); 
-    document.write('число фібоначчі (12) =' +  fib(12) + '<br>' );
+    
+   
